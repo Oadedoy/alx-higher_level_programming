@@ -2,6 +2,7 @@
 def multiple_returns(sentence):
     if len(sentence) == 0:
         s_len = None
+        first_char = None
 
     else:
         s_len = len(sentence)
